@@ -8,7 +8,7 @@ p{
 }
 
 #aba a{
-    color: rgb(82, 7, 82);
+    color: #520752;
 }
 
 #aba a:hover{
@@ -16,7 +16,7 @@ p{
 }
 
 #logo-brenda{
-    color: purple;
+    color: #800080;
     font-family: "Sedgwick Ave Display", cursive;
     font-size: 30px;
     padding-left: 80px;
@@ -26,26 +26,25 @@ p{
     padding-right: 120px;
 }
 
-    #first-c {
-    margin-top: 100px;
+ #first-c {
+    margin-top: 60px;
 }
 
 .image-me{
-    width: 20rem;
+    width: 35rem;
     align-items: center;
-    border-radius: 10%;
 
 }
 
 #presentation{
     padding-left: 100px;
+    margin-top: 40px;
 }
 
 #presentation h1{
     color: purple;
     font-family: "Sedgwick Ave Display", cursive;
     font-size: 100px;
-    font-weight: 00;
 }
 
 #presentation span{
@@ -60,6 +59,7 @@ p{
     color: rgb(156, 103, 156);
     font-size: 16px;
     font-family: "Pixelify Sans", sans-serif;
+    margin-top: 40px;
 }
 
 #btn-git{
@@ -87,4 +87,40 @@ p{
 #btn-twt{
     background-color: #00ACEE;
     border: 1px solid #00ACEE;
+}
+
+#about-me{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 30%;
+    width: 90%;
+    height: 100vh;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+#title-about{
+    margin-top: 100px;
+}
+
+#title-about h2{
+    color: rgb(156, 103, 156);
+    font-size: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+#title-about h3{
+    color: #520752;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+#description-about {
+    color: rgb(156, 103, 156);
+    font-family: "Inter", sans-serif;
+    padding-right: 100px;
+    margin-top: 30px;
+    font-weight: 300;
+    text-align: justify;
 }
